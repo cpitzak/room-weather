@@ -1,0 +1,26 @@
+{
+   "$schema":"http://json-schema.org/draft-06/schema#",
+   "definitions":{
+      "temp_f":{
+         "type":"number",
+         "minimum":-60,
+         "maximum":224
+      },
+      "humidity_percent":{
+         "type":"number",
+         "minimum":0,
+         "maximum":100
+      }
+   },
+   "type":"object",
+   "properties":{
+      "temp_f":{
+         "$ref":"#/definitions/temp_f"
+      },
+      "humidity_percent":{
+         "$ref":"#/definitions/humidity_percent"
+      }
+   },
+   "required": ["temp_f", "humidity_percent"],
+   "additionalProperties":false
+}
