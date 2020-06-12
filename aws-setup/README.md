@@ -17,7 +17,6 @@
 
 # Lambda function for getting weather
 1. same as "Lambda function for upload data" but with name: get-weather
-2. 
 
 # Create S3 bucket
 1. Bucket name: clint-weather-data
