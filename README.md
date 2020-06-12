@@ -7,7 +7,7 @@ Using S3 instead of a database because it's cheaper and I'm paying the bill :win
 * [Steps to setup the AWS Architecture](aws-setup/README.md)
 
 # Hardware
-![](P4150966.JPG)
+![](P4150966.jpg)
 
 # Code
 * [The code that reads the sensor](https://github.com/cpitzak/dht22Service4ApiEndpoints)
