@@ -98,3 +98,6 @@ To protect yourself from accidentally calling it too much. This is optional
     * 10m
     * myapigatewayaddress.amazonaws.com.
     Note: the periods at the end of the domain names are intentional
+9. Go back to the custom domain. Click on your custom domain
+10. Click API Mapping, add new mapping
+11. Select your api and stage
